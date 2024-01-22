@@ -17,7 +17,7 @@ const ShowBooks = () => {
       <table>
        <>
        <>
-          <th className="border px-3">ID</th>
+          {/* <th className="border px-3">ID</th> */}
           <th className="border px-3">Title</th>
           <th className="border px-3">Author</th>
           <th className="border px-3">Action</th>
@@ -27,7 +27,7 @@ const ShowBooks = () => {
         {books && books.map((book)=>{
           const {id, title, author}=book;
           return <tr key={id}>
-            <td className="border px-3">{id}</td>
+            {/* <td className="border px-3">{id}</td> */}
             <td className="border px-3">{title}</td>
             <td className="border px-3">{author}</td>
             <div  className="border px-3">
